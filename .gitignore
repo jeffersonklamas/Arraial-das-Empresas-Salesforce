@@ -38,3 +38,6 @@ $RECYCLE.BIN/
 
 # Local environment variables
 .env
+
+# Classes Old
+force-app/main/default/classes/Antigos_err

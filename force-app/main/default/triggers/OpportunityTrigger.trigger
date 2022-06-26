@@ -10,18 +10,18 @@ trigger OpportunityTrigger on Opportunity (before update, after update) {
     //2.2 - Se sim, Criar tarefa com o Título "Acompanhar Festa"
     //2.3 - Campos: StageName, Tasks, 
     
-    List<Opportunity> festasOld = (List<Opportunity>) Trigger.old;
-    List<Opportunity> festasNew = (List<Opportunity>) Trigger.new; 
-    Map<Id,Opportunity> festasOldMap = (Map<Id,Opportunity>) Trigger.oldMap;
-    Map<Id,Opportunity> festasNewMap = (Map<Id,Opportunity>) Trigger.newMap;
+//     List<Opportunity> festasOld = (List<Opportunity>) Trigger.old;
+//     List<Opportunity> festasNew = (List<Opportunity>) Trigger.new; 
+//     Map<Id,Opportunity> festasOldMap = (Map<Id,Opportunity>) Trigger.oldMap;
+//     Map<Id,Opportunity> festasNewMap = (Map<Id,Opportunity>) Trigger.newMap;
     
-    iF (Trigger.isInsert){
-        if (Trigger.isBefore) {
+//     iF (Trigger.isInsert){
+//         if (Trigger.isBefore) {
             
     	
-    }else{//after
+//     }else{//after
         
-    }
+//     }
     
-}
+// }
 }

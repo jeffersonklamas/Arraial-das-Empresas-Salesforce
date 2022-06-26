@@ -1,11 +1,11 @@
-public class TarefaQuadrilhaCriar {
-    @InvocableMethod(label='Cria tarefa ligação do responsável pela Quadrilha' description='Método para criar tarefa para as oportunidades que possuem Quadrilha Personalizada para ligar aos Responsáveis')
-    public static List criarTarefaLigacaoResponsavelQuadrilha(List<Opportunity> festas){
-        System.debug('TarefaQuadrilhaCriar Inicio');
+public class TarefaCriar {
+	@InvocableMethod
+    public static void criarTarefaLigacaoResponsavelQuadrilha(List<Opportunity> festas){
+        System.debug('TarefaCriar Inicio');
 
         List<Task> tarefas = new List<Task>();
-        if(!tarefas.isEmpty()){
-            System.debug('TarefaQuadrilhaCriar Verificando se há tarefa');
+        if(!festas.isEmpty()){
+            System.debug('TarefaCriar Verificando se há tarefa');
             for(Opportunity festa : festas){
                 if(festa.Responsavel_pela_Quadrilha__c != null){
                     Task tarefa = new Task();
@@ -19,8 +19,8 @@ public class TarefaQuadrilhaCriar {
                     tarefas.add(tarefa); 
                 }
             }
-            System.debug('TarefaQuadrilhaCriar Criando a Tarefa');
-           insert tarefas;
+            System.debug('TarefaCriar Criando a Tarefa');
+            insert tarefas;
         }
     }
 }
