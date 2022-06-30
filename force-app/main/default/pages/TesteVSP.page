@@ -1,0 +1,27 @@
+<apex:page standardController="Opportunity">
+    <apex:form >
+        <apex:pageBlock title="Insira os Dados da Oportunidade">
+            <apex:pageBlockSection columns="1">
+                <apex:inputField value="{!Opportunity.Name}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection columns="2">
+                <apex:inputField value="{!Opportunity.Responsavel_pela_Festa__c}"/>
+                <apex:inputField value="{!Opportunity.Data_da_Festa__c}"/>
+                <apex:inputField value="{!Opportunity.Data_Inicio_da_Festa__c}"/>
+                <apex:inputField value="{!Opportunity.Data_Fim_da_Festa__c}"/>
+                <apex:inputField value="{!Opportunity.Traje_a_Carater__c}"/>
+                <apex:inputField value="{!Opportunity.Numero_de_Convidados__c}"/>
+                <apex:inputField value="{!Opportunity.Limite_Orcamento__c}"/>
+                <apex:inputField value="{!Opportunity.Forma_de_Pagamento__c}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection columns="3">
+                <apex:inputField value="{!Opportunity.Valor_por_Pessoa__c}"/>
+                <apex:inputField value="{!Opportunity.Custo_da_Festa__c}"/>
+                <apex:inputField value="{!Opportunity.Valor_Pagamento__c}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!save}" value="Save"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

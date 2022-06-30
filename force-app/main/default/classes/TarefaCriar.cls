@@ -1,11 +1,11 @@
 public class TarefaCriar {
 	@InvocableMethod
     public static void criarTarefaLigacaoResponsavelQuadrilha(List<Opportunity> festas){
-        System.debug('TarefaCriar Inicio');
+        // System.debug('TarefaCriar Inicio');
 
         List<Task> tarefas = new List<Task>();
         if(!festas.isEmpty()){
-            System.debug('TarefaCriar Verificando se há tarefa');
+            // System.debug('TarefaCriar Verificando se há tarefa');
             for(Opportunity festa : festas){
                 if(festa.Responsavel_pela_Quadrilha__c != null){
                     Task tarefa = new Task();
@@ -19,7 +19,7 @@ public class TarefaCriar {
                     tarefas.add(tarefa); 
                 }
             }
-            System.debug('TarefaCriar Criando a Tarefa');
+            // System.debug('TarefaCriar Criando a Tarefa');
             insert tarefas;
         }
     }

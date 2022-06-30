@@ -9,7 +9,7 @@ public class ItemFestaTriggerHandler extends TriggerHandler {
     private List<Item_Festa__c> oldList;
     private Map<id, Item_Festa__c> newMap;
     private Map<id, Item_Festa__c> oldMap;
-    
+
     public itemFestaTriggerHandler() {
         this.newList = (List<Item_Festa__c>) Trigger.new;
         this.oldList = (List<Item_Festa__c>) Trigger.old;
@@ -20,4 +20,8 @@ public class ItemFestaTriggerHandler extends TriggerHandler {
     protected override void beforeInsert(){
         new ValidaItemFestaJaExisteOpp(newList, oldMap).run(); 
     }
+
+    protected override void beforeUpdate(){
+        new ValidaItemFestaJaExisteOpp(newList, oldMap).run(); 
+    } 
 }
