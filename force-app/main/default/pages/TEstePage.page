@@ -1,0 +1,169 @@
+<apex:page standardController="Opportunity" renderAs="pdf">
+    <center>
+        <apex:image id="Logo" value="/resources/images/festasEAlegria.svg" width="220" height="55"/>
+        <h3><style="font-family: Arial Unicode MS; text-align: justify; font-size: 12pt;"/> Contrato de Prestação de Serviços</h3>
+    </center>
+    <p><style="font-family: Arial Unicode MS; font-size: 12pt;"/> Contrato N° </p>
+    <br/>
+    <p><style="font-family: Arial Unicode MS; text-align: justify; font-size: 12pt;"/>
+       <strong>NAME</strong> pessoa jurídica de direito privado, inscrita no CNPJ n° <strong>SIC</strong> , com sede em <strong>ShippingStreet</strong>,
+        <strong>ShippingCity</strong>, <strong>BillingState</strong>, <strong>BillingCountry</strong>, doravante denominado <strong>CONTRATADA</strong> e neste ato
+        representada na forma de seus atos constitutivos, por seu representante legal  <strong>CONTACT.NAME</strong>, <strong>NACIONALIDADE</strong> , <pan>ESTADO
+        CIVIL</pan>, <spam>PROFISSÃO</spam>, portador do Documento de Identidade RG nº. <strong>0000000-0</strong>, inscrito no CPF sob o nº. <strong>000.000.000-00</strong>,
+        residente e domiciliado em  <strong>ENDEREÇO DO RESPONSÁVEL PELA EMPRESA</strong>, e;
+        <br/>
+        <br/>
+        <strong>AQUI NOME DA CONTRATADA</strong>, pessoa jurídica de direito privado, inscrita no CNPJ n° <strong>SIC</strong>, com sede em  <strong>ENDEREÇO DA
+        CONTRATADA</strong>, doravante denominado <strong>CONTRATADA</strong> e neste ato representada na forma de seus atos constitutivos, porseu representante
+        legal <strong>NOME DO RESPONSÁVEL</strong>, <strong>NACIONALIDADE</strong>, <strong>PROFISSÃO</strong>, portador do Documento de Identidade RG nº. <strong>NÙMERO DO RG</strong>,
+        inscrito no CPF sob o nº. <strong>NÙMEOR DO CPF</strong>, residente e domiciliado em <strong>ENDEREÇO DO RESPONSÁVEL</strong>.
+        <br/>
+        <br/>
+        Decidem as partes, na melhor forma de direito, celebrar o presente CONTRATO DE PRESTAÇÃO DE SERVIÇOS, que reger-se-á mediante as cláusulas e
+        condições adiante estipuladas. 
+    </p>
+    <h4>CLÁUSULA PRIMEIRA - DO OBJETO</h4>
+
+    <p><style="font-family: Arial Unicode MS; text-align: justify; font-size: 12pt;"/>
+        1.1 O presente contrato tem por objeto a prestação de Serviços profissionais epecializados em realização de festas e entrenenimento por parte da <strong>CONTRATADA</strong> de acordo com o termos e condições detalhados neste contrato.
+    </p>
+    
+    <h4>CLÁUSULA SEGUNDA - OBRIGAÇÕES DA CONTRATANTE</h4>
+    
+    <p><style="font-family: Arial Unicode MS; text-align: justify; font-size: 12pt;"/>
+        2.1 A <strong>CONTRATANTE</strong> deverá fornecer à CONTRATADA todas as informações necessárias à realização do serviço, 
+            devendo especificar os detalhes necessários à perfeita consecução do mesmo. <br/>
+        2.2 A <strong>CONTRATANTE</strong> é obrigada ainda a disponibilizar: MATERIAIS DISPONIBILIZADOS<br/>  
+        2.3 A <strong>CONTRATANTE</strong> deverá efetuar o pagamento na forma e condições estabelecidas na cláusula quinta.<br/>
+    </p>
+
+    <h4>CLÁUSULA TERCEIRA - OBRIGAÇÕES DA CONTRATADA</h4>
+    <p><style="font-family: Arial Unicode MS; text-align: justify; font-size: 12pt;"/>
+        3.1 A <strong>CONTRATADA</strong> deverá prestar os serviços solicitados pela <strong>CONTRATANTE</strong> conforme descritivo, 
+        especificações e prazos previstos no ANEXO I.<br/>
+        3.2 A <strong>CONTRATADA</strong> se obriga a manter absoluto sigilo sobre as operações, dados, estratégias, materiais, 
+        informações e documentos da <strong>CONTRATANTE</strong>, mesmo após a conclusão dos serviços ou do término da relação 
+        contratual.<br/>
+        3.3 Os contratos, informações, dados, materiais e documentos inerentes à <strong>CONTRATANTE</strong> ou a seus clientes 
+        deverão ser utilizados, pela <strong>CONTRATADA</strong>, por seus funcionários ou contratados, estritamente para cumprimento 
+        dos serviços solicitados pela <strong>CONTRATANTE</strong>, sendo <strong>VEDADO</strong> a comercialização ou utilização para outros fins. <br/>
+        3.4 Será de responsabilidade da <strong>CONTRATADA</strong> todo o ônus trabalhista ou tributário referente aos funcionários 
+        utilizados para a prestação do serviço objeto deste instrumento, ficando a <strong>CONTRATANTE</strong> isenta de qualquer 
+        obrigação em relação a eles.<br/>
+        3.5 A <strong>/CONTRATADA</strong> deverá fornecer os respectivos documentos fiscais, referente ao(s) pagamento(s) do presente
+        instrumento.<br/>
+    </p>
+        
+    <h4>CLÁUSULA QUARTA - DOS SERVIÇOS</h4>
+    <p><style="font-family: Arial Unicode MS; text-align: justify; font-size: 12pt;"/>
+        4.1 A <strong>CONTRATADA</strong> atuará nos serviços contratados de acordo com as especificações descritas no ANEXO I, 
+        que passa ser parte integrante do presente contrato.<br/>
+        4.2 Os serviços terão início em <strong>INDICAR O INICIO DAS ATIVIDADES</strong> dias corridos da assinatura do presente contrato.<br/>
+    </p>
+
+    <h4>CLÁUSULA QUINTA - DA AVALIAÇÃO DE PERFORMANCE </h4>
+    <p><style="font-family: Arial Unicode MS; font-size: 12pt;"/>
+        5.1 A execução dos serviços, objeto do presente contrato, passará por avaliações periódicas para fins de 
+        constatar o cumprimento dos indicadores de produtividade, abaixo indicados:<br/>
+        5.1.1 SEGURANÇA: Para fins de observância aos indicadores de segurança do presente contrato, mensalmente a 
+        CONTRATADA deve comprovar  ;<br/>
+        5.1.2 QUALIDADE: Para fins de observância aos indicadores de qualidade do presente contrato, mensalmente a 
+        CONTRATADA deve comprovar  ;<br/>
+        5.1.3 COMUNICAÇÃO: Para fins de observância aos indicadores de comunicação do presente contrato, mensalmente 
+        a CONTRATADA deve comprovar  ;<br/>
+        5.1.4 PONTUALIDADE: Para fins de observância aos indicadores de pontualidade do presente contrato, mensalmente
+        a CONTRATADA deve comprovar  ;<br/>
+    </p>
+
+    <h4>CLÁUSULA SEXTA - DA EXCLUSIVIDADE</h4>
+    <p><style="font-family: Arial Unicode MS; font-size: 12pt;"/>
+        6.1 A <strong>CONTRATADA</strong> atuará COM EXCLUSIVIDADE dentro do  , NÃO podendo exercer sua atividade para outras 
+        empresas, ou efetuar negócios em nome e por conta própria.<br/>
+        6.2 A <strong>CONTRATADA</strong> terá gerência integral na  que lhe é destinada, com TOTAL AUTONOMIA, sem cumprimento de 
+        horários ou ordens, devendo atender exclusivamente o cronograma firmado entre as partes.<br/>
+    </p>
+
+    <h4>CLÁUSULA SÉTIMA - DO PREÇO E DAS CONDIÇÕES DE PAGAMENTO</h4>
+    <p><style="font-family: Arial Unicode MS; font-size: 12pt;"/>
+        <table>
+            <tr><th>Valor do Pagamento : </th>
+                <td>
+                    <strong>{!Opportunity.Valor_Pagamento__c}</strong>
+                </td>
+            </tr>
+                <tr><th>Forma de Pagamento :</th>
+                    <td>
+                        <strong>{!Opportunity.Forma_de_Pagamento__c}</strong>
+                    </td>
+                </tr>   
+            <tr><th>Data do Pagamento :</th>
+                <td>
+                    <strong>{!Opportunity.Data_Pagamento__c}</strong>
+                </td>
+            </tr>
+            </table>
+            <br/>
+            7.2 No caso de atraso no pagamento superior a 10 dias, será devida multa moratória no valor de PORCENTAGEM DA MULTA sobre a 
+            parcela inadimplida, além da atualização do valor pelo IGPM.<br/>
+            7.3 Considera-se o cumprimento integral do contrato o momento em que todos os serviços especificados no 
+            ANEXO I tenham sido concluídos, mediante aprovação e revisão final da <strong>CONTRATANTE</strong> ou outra forma de 
+            entrega especificada no ANEXO I.<br/>
+        </p>
+    
+    <h4>CLÁUSULA OITAVA - DO DESCUMPRIMENTO</h4>
+    <p><style="font-family: Arial Unicode MS; font-size: 12pt;"/>
+            8.1 O descumprimento de qualquer uma das cláusulas por qualquer parte, implicará na rescisão imediata 
+            deste contrato, não isentando a <strong>CONTRATADA</strong> de suas responsabilidades referentes ao zelo com informações 
+            e dados da <strong>CONTRATANTE</strong>.<br/>
+            8.2  Havendo descumprimento deste contrato, será devida multa de PORCENTAGEM DA MULTA sobre o valor do contrato.<br/>
+    </p>
+
+    <h4>CLÁUSULA NONA - DO PRAZO E VALIDADE</h4>
+    <p><style="font-family: Arial Unicode MS; font-size: 12pt;"/>
+        9.1 A <strong>CONTRATADA</strong> deverá realizar os serviços dentro dos prazos determinados no cronograma previsto no ANEXO I,
+        sendo sua responsabilidade comunicar a impossibilidade de cumprimento, bem como os motivos para tal e o novo
+        prazo previsto, estando em sua competência a capacidade para tal avaliação.<br/>
+        9.2 Este instrumento é válido por prazo indeterminado, vigendo até a finalização do serviço, ora contratado, 
+        ou encerramento do contrato, não ficando as partes isentas de seus compromissos éticos após invalidação do 
+        mesmo.<br/>
+    </p>
+
+    <h4>CLÁUSULA DÉCIMA - DA RESCISÃO IMOTIVADA</h4>
+    <p><style="font-family: Arial Unicode MS; font-size: 12pt;"/>
+        10.1 Poderá o presente instrumento ser rescindido por qualquer das partes, em qualquer momento, sem que haja 
+        qualquer tipo de motivo relevante, respeitando-se um período mínimo de <strong>30 (TRINTA)</strong> dias, devendo então somente ser 
+        finalizadas e pagas as etapas que já estiverem em andamento.<br/>
+    </p>
+
+    <h4>CLÁUSULA DÉCIMA PRIMEIRA - DA OBSERVÂNCIA À LGPD</h4>
+    <p><style="font-family: Arial Unicode MS; font-size: 12pt;"/>
+        11.1 O <strong>CONTRATANTE</strong> declara expresso CONSENTIMENTO que a <strong>CONTRATADA</strong> irá coletar, tratar e compartilhar os 
+        dados necessários ao cumprimento do contrato, nos termos do Art. 7º, inc. V da LGPD, os dados necessários 
+        para cumprimento de obrigações legais, nos termos do Art. 7º, inc. II da LGPD, bem como os dados, se 
+        necessários para proteção ao crédito, conforme autorizado pelo Art. 7º, inc. V da LGPD.<br/>
+        11.2 Outros dados poderão ser coletados, conforme termo de consentimento específico.<br/>
+    </p>
+
+    <h4>CLÁUSULA DÉCIMA SEGUNDA - DAS DISPOSIÇÕES GERAIS</h4>
+    <p><style="font-family: Arial Unicode MS; font-size: 12pt;"/>
+        12.1 Fica pactuada a total inexistência de vínculo trabalhista entre as partes, excluindo as obrigações 
+        previdenciárias e os encargos sociais, não havendo entre <strong>CONTRATADA</strong> e <strong>CONTRATANTE</strong> qualquer tipo de relação 
+        de subordinação.<br/> 
+        12.2 A contratação da <strong>CONTRATADA</strong>, cumpridas todas as formalidades legais, com ou sem exclusividade, de forma
+        contínua ou não, afasta a qualidade de empregado prevista no art. 3º da CLT, nos termos do art. 442-B da CLT.<br/>
+        12.3 A tolerância, por qualquer das partes, com relação ao descumprimento de qualquer termo ou condição aqui 
+        ajustado, não será considerada como desistência em exigir o cumprimento de disposição nele contida, nem 
+        representará novação com relação à obrigação passada, presente ou futura, no tocante ao termo ou condição 
+        cujo descumprimento foi tolerado.<br/>
+    </p>  
+
+    <h4>CLÁUSULA DÉCIMA TERCEIRA - DO FORO</h4>
+    <p><style="font-family: Arial Unicode MS; text-align: justify; font-size: 12pt;"/>
+        13.1 Para dirimir quaisquer controvérsias oriundas do presente contrato, as partes elegem o foro da Comarca 
+        de Cascavel do Estado do Ceará.<br/>
+    </p>
+    <br/>
+    Por estarem assim justos e de acordo, firmam o presente instrumento, em duas vias de igual teor, juntamente com 2 (duas) testemunhas.
+    <br/>
+    <br/>
+</apex:page>
