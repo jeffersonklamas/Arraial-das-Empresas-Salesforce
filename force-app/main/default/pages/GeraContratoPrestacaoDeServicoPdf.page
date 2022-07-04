@@ -22,7 +22,8 @@
     </head>
     <body>
         <center>
-            <apex:image id="Logo" value="/resources/images/festasEAlegria.svg" width="220" height="55"/>
+            <apex:image id="Logo_Festas" value="{!$Resource.Logo_Festas}" width="450" height="90"/> 
+            <!-- <apex:image id="Logo" value="" width="220" height="55"/> -->
             <h3> <strong>Contrato de Prestação de Serviços</strong></h3>
         </center>
         <p> Contrato N° </p>
